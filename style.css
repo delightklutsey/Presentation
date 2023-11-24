@@ -1,0 +1,242 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;1,700&family=Poppins:wght@600&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+}
+
+/* media query for mobile */
+/* @media only screen and (max-device-width: 480px) {
+    
+    
+    
+    .header .content{
+        display: block;
+       float: none;
+    }
+
+} */
+body{
+    font-size: 18px;
+    justify-content: center;
+    align-items: center;
+    font-family: "poppins", sans-serif;
+    height: 100vh;
+
+}
+
+
+
+
+
+
+/*  */
+.header{
+    background-image: url(./images/bg-hero-desktop.svg);
+    padding: 50px;
+    width: 100%;
+    background-color: hsl(193, 100%, 96%);
+    margin: auto;
+   
+    
+
+}
+.navbar{
+    justify-content: space-between;
+    display: flex;
+}
+.logo img{
+    width: 100px;
+}
+button:hover{
+    cursor: pointer;
+}
+.navbar button {
+    width: 150px;
+    height: 40px;
+    border-radius: 20px;
+    background-color: white;
+    border-color: white;
+    border-style: solid;
+    
+    
+}
+.content{
+    margin-top: 30px;
+}
+.header .content{
+    display: flex;
+   
+}
+.header .content .top{
+    margin-top: 20px;
+    color: rgb(29, 25, 25);
+}
+.header .content .left{
+    margin-top: 120px;
+}
+.header .content .left .get{
+    width: 180px;
+    margin-top: 30px;
+    height: 40px;
+    border-radius: 20px;
+    border-style: solid;
+    background-color: hsl(322, 100%, 66%);
+    color: white;
+    border-color: hsl(322, 100%, 66%);
+}
+.header .content .right img{
+    width: 635px;
+    height: 450px;
+    margin-left:50px ;
+}
+
+.about{
+    margin-top: 150px;
+    display: flex;
+    padding: 50px;
+    width: 72%;
+    margin: auto;
+    justify-content: center;
+    gap: 20px;
+    height: 60vh;
+    box-shadow: 5px 5px 5px  5px rgb(240, 234, 234);
+    border-radius: 5px;
+    
+
+}
+
+.about .left-2{
+    margin-top: 90px;
+}
+
+ .about p{
+    color: grey;
+ }   
+
+.about .right-2 img{
+    width: 350px;
+}
+.subscribe{
+    align-items: center;
+    padding: 40px;
+    box-shadow: 5px 5px 5px 5px  rgb(240, 234, 234);
+    width: 40%;
+    margin: auto;
+    justify-content: center;
+    border-radius: 5px;
+    margin-bottom: -30px;
+   
+
+   
+}
+.subscribe button{
+    width: 220px;
+    margin-top: 30px;
+    height: 40px;
+    border-radius: 20px;
+    border-style: solid;
+    background-color: hsl(322, 100%, 66%);
+    color: white;
+    border-color: hsl(322, 100%, 66%);
+    margin-left: 100px;
+}
+
+.footer{
+    background-color: hsl(210, 18%, 36%);
+    color: white;
+    padding: 50px;
+    
+   
+}
+
+
+.footer .container{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    color: white;
+   
+}
+.footer .sub  .location{
+  display: flex;
+}
+.footer .sub  .contact{
+   display: flex;
+}
+.footer .sub  .email{
+  display: flex;
+}
+.footer .sub .location img{
+   width: 10px;
+   height: 15px;
+   margin-top: 5px;
+}
+.footer .sub .location p{
+    margin-left: 10px;
+    font-size: .8rem;
+}
+
+.footer .sub .contact img{
+    width: 10px;
+    height: 15px;
+    margin-top: 5px;
+ }
+ .footer .sub .contact p{
+     margin-left: 10px;
+     font-size: .8rem;
+ }
+
+ .footer .sub .email img{
+    width: 12px;
+    height: 13px;
+    margin-top: 5px;
+ }
+ .footer .sub .email p{
+     margin-left: 10px;
+     font-size: .8rem;
+ }
+ .footer .container-1 a{
+    color: white;
+   text-decoration: none;
+   font-size: .8rem;
+   
+   
+ }
+ .footer .container-1 a:hover{
+    text-decoration: underline;
+ }
+ .footer .container-2 a{
+    color: white;
+   text-decoration: none;
+   font-size: .8rem;
+  
+ }
+
+ .footer .container-2 a:hover{
+    text-decoration: underline;
+ }
+ .footer .container.icons .icon a img {
+    display: flex;
+    
+ }
+
+ .footer .container .icons .icon a img{
+    width: 1.5rem;
+    margin-top: 20px;
+    
+ }
+
+ .footer .container .icons .icon a img:hover{
+    background-color: white;
+
+ }
+
+ 
+
+ 
+
+
+
